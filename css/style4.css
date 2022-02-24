@@ -1,0 +1,237 @@
+body{
+    padding: 0px;
+    margin: 0px;
+}
+header{
+    height: 80px;
+    
+}
+header>div>img{
+    width: 400px;
+    margin-top: 18px;
+    margin-left: 140px;
+}
+.hotline{
+    font-family: Helvetica;
+    font-weight: 550;
+    color: gray;
+
+}
+
+.hotline3{
+    position: absolute;
+    top: 32px;
+    right: 357px;
+}
+
+.hotline4{
+    display: block;
+    line-height: 25px;
+    padding-left: 28px;
+    background: url("../images/time.jpg") no-repeat left center;
+    background-size: 15px;
+    position: absolute;
+    top: 30px;
+    left: 1150px;
+    font-size: 14px;
+    color: rgb(151, 142, 142);
+    
+}
+.hotline5{
+    display: block;
+    line-height: 25px;
+    padding-left: 28px;
+    background: url("../images/iconhotline.png") no-repeat left center;
+    background-size: 15px;
+    position: absolute;
+    top: 30px;
+    left: 1280px;
+    font-size: 14px;
+    color: rgb(151, 142, 142);
+}
+nav{
+   
+    height: 48px;
+    background: rgb(212, 9, 9);
+    color: rgb(187, 182, 182);
+}
+.menu>ul{
+    padding: 15px;
+    margin-left: 115px;
+    color: rgb(187, 182, 182);
+}
+.menu ul ul{
+    
+    position: absolute;
+    display: none;
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+    border-radius: 3px;
+    width: 300px;
+    height: 200px;
+    background-color: white;
+    box-shadow: 0px 0px 1px white;
+}
+.menu>ul>li{
+    display:inline-block;
+    position:relative;
+
+}
+.menu>ul>li>a{
+    display: block;
+    text-decoration: none;
+    font-weight: 550;
+    margin: 1px;
+    color: rgb(233, 227, 227);
+    font-size: 12px;
+    font-family: Verdana;
+}
+.menu>ul>li>a:hover{
+    color: white;
+}
+.menu>ul>li:hover>ul{
+    display: block;
+}
+.menu ul ul a{
+    line-height:30px;
+    color: gray;
+    text-decoration:none;
+    padding:0px 20px;
+}
+.menu ul ul a:hover{
+    color: rgb(17, 16, 16);
+}
+.menu ul ul li:hover{
+    background-color: rgb(211, 211, 211);
+}
+
+article{
+    width: 1600px;
+    height: 1300px;
+    float: left;
+    
+}
+
+.noidungsp1{
+    width: 85%;
+    height: 50px;
+    margin-left: 139px;
+    margin-bottom: 20px;
+    
+}
+.noidungsp1>h3{
+    color: rgb(29, 121, 175);
+    font-size: 19px;
+    border-bottom: 1px solid gray;
+    height: 100%;
+    line-height: 40px;
+
+}
+.anhchinh{
+
+    width: 1520;
+    height: 40px;
+    text-align: center;
+  
+}
+.anhchinh>img{
+    width: 81%;
+    
+}
+.khunglon{
+    width: 95%;
+    
+    
+}
+.khunglon>p{
+    width: 81%;
+    height: 100px;
+    
+    margin-left: 148px;
+}
+.khung{
+    
+    width: 101%;
+    height: 112px;
+    margin-left: -5px;
+}
+.ndgt1{
+    width: 100%;
+    height: 2220px;
+    font-size: 22px;
+    width: 100%;
+  
+    float: left;
+}
+.sanpham{
+    
+    width: 85%;
+    height: 750px;
+    margin-left: 124px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.sanpham>.anhsp1{
+    width: 23%;
+    margin-top: 1px;
+    float: left;
+    margin-left: 17px;
+    margin-bottom: 35px;
+
+}
+.sanpham>.anhsp1>.anh>img{
+    width: 95%;
+}
+.sanpham>.anhsp1>.tensp{
+    color: red;
+}
+.sanpham>.anhsp1>.tensp>div{
+    color:rgb(29, 121, 175);
+}
+.sanpham>.anhsp1>.tensp>div:hover{
+    color:black;
+}
+footer{
+    
+    text-align: center;
+    height: 210px;
+    background-color: rgb(211, 12, 12);
+    clear: both;
+    color: white;
+}
+footer>.kt1{
+    font-size: 17px;
+    padding-top: 20px;
+}
+footer>.kt2{
+    font-size: 22px;
+    font-family: Verdana;
+    font-weight: 550;
+    letter-spacing: -1px;
+}
+footer>.kt3,.kt4{
+    font-size: 17px;
+}
+.noidungsp1>h5{
+    text-align: center;
+     color:rgb(29, 121, 175);
+}
+.noidungsp1>h2{
+    text-align: center;
+}
+.ndmuahang{
+    color: brown;
+    
+}
+.ndmuahang{
+    text-align: center;
+    width: 100%;
+}
+.ndmuahang2{
+    text-align: center;
+}
+h3{
+    text-align: center;
+    
+}
